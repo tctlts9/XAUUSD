@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="92" fill="none" stroke="#eab308" stroke-width="4" stroke-opacity="0.3" />
+
+  <!-- Shield Shape for Prop Firm -->
+  <path d="M256 90 L390 145 C390 280 256 375 256 375 C256 375 122 280 122 145 Z" fill="url(#shieldGrad)" fill-opacity="0.25" stroke="#3b82f6" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- Gold Candlestick Bars in Center -->
+  <!-- Candle 1 -->
+  <line x1="190" y1="180" x2="190" y2="300" stroke="#fde047" stroke-width="6" stroke-linecap="round" />
+  <rect x="175" y="210" width="30" height="60" rx="4" fill="url(#goldGrad)" />
+
+  <!-- Candle 2 (Center Hero) -->
+  <line x1="256" y1="140" x2="256" y2="320" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+  <rect x="238" y="170" width="36" height="110" rx="4" fill="#10b981" />
+
+  <!-- Candle 3 -->
+  <line x1="322" y1="190" x2="322" y2="290" stroke="#fde047" stroke-width="6" stroke-linecap="round" />
+  <rect x="307" y="200" width="30" height="65" rx="4" fill="url(#goldGrad)" />
+
+  <!-- Upward Trendline -->
+  <path d="M150 290 Q 230 250, 360 150" fill="none" stroke="#facc15" stroke-width="10" stroke-linecap="round" />
+  <polygon points="360,135 375,155 350,165" fill="#facc15" />
+
+  <!-- GP Monogram in Base -->
+  <text x="256" y="440" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="4">GOLDPROP</text>
+</svg>

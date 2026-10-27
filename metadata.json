@@ -1,0 +1,6 @@
+{
+  "name": "GoldProp Analytics - XAUUSD, Prop Firm & Backcom Dashboard",
+  "description": "Bảng điều khiển chuyên nghiệp quản trị giao dịch XAUUSD, giám sát tài khoản Quỹ cấp vốn (Prop Firm) và quản lý đối soát hoàn phí hoa hồng (Backcom).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
